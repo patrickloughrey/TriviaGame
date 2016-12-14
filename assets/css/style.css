@@ -1,0 +1,90 @@
+body {
+  background: url("../images/bg.jpg");
+  font-family: 'Cantata One', sans-serif;
+  background-size: 99.9%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#start-game {
+  text-align: center;
+  position: relative;
+  clear: both;
+  padding-top: 10px;
+  background: #66ccff;
+  border: 1.5px solid black;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+#container {
+  width: 60%;
+  margin: 20px auto;
+  overflow: auto;
+  padding: 25px;
+  opacity: 0.99;
+}
+
+header {
+  text-align: center;
+  border-bottom: #fff dashed 2px;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header p {
+  padding: 0;
+  margin-top: 5px;
+  color: #000;
+}
+
+section { 
+  min-height: 400px;
+}
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+
+}
+
+.buttonHolder {
+  text-align: center;
+  position: relative;
+  clear: both;
+  padding-top: 10px;
+}
+
+input[type='submit'] {
+  background: #66ccff;
+  border: 1.5px solid black;
+  color: black;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#results h3 {
+  background: #FFD700; 
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+h3 {
+  color: #000;
+}
+
+#results span {
+  color: #000;
+  font-weight: bold;
+}
